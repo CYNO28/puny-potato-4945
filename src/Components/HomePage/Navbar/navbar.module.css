@@ -1,0 +1,57 @@
+.Navbar{
+    display: flex;
+    justify-content: center;
+
+    height: 90px;
+    background-color: transparent;
+   color:  rgb(29, 30, 28);
+   font-family: MuotoWeb, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   position: fixed;
+   align-items: center;
+   top: 0;
+   width: 100vw;
+}
+.Navbar a{
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    font-size: 21px;
+    color: #1d1e1c;
+    font-weight: 500;
+    line-height: 32px;
+}
+.Navbar a:hover{
+    color: rgba(250, 93, 0, 100%);
+}
+a.TryBtn{
+    margin-left: 8px;
+    font-weight: 600;
+    font-size: 19px;
+    padding: 12px 20px;
+    color: rgba(255, 248, 241, 100%);
+    margin: 0;
+    background-color: rgba(250, 93, 0, 100%);
+    border-color: rgba(250, 93, 0, 100%);
+    border-radius: 1rem;
+}
+a.TryBtn:hover{
+    color: rgba(255, 248, 241, 100%);
+    background-color: rgba(250, 100, 0, 100%);
+    border-color: rgba(250, 93, 0, 100%);
+}
+.NavbarLeftSection svg{
+    padding: 5px 25px 7px 0;
+    margin: 0 25px 0 0;
+}
+.NavbarMidSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavbarMidSection a{
+}
+
+.NavbarRightSection>div{
+    margin: 0 0 0 215px;
+
+    
+}

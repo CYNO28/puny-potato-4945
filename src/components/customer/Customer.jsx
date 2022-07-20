@@ -90,8 +90,18 @@ const Customer=()=>{
                         <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-yale.svg?noresize"></img>
                     </div>
                     </div>
+                </div>   
+            </div>
+            <div className={styles.story}>
+                <div className={styles.story_box}>
+                    <div className={styles.story_box_top}></div>
+                    <div className={styles.story_box_content}>
+                        <div className={styles.story_box_left}>
+                            <div className={styles.sidebar}></div>
+                        </div>
+                        <div className={styles.story_box_right}></div>
+                    </div>
                 </div>
-                
             </div>
         </div>
              

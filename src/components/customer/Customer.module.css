@@ -1,6 +1,5 @@
 body{
     background-color: #fff8f1;
-
 }
 .body_container{
     height: 3555.63px;
@@ -11,7 +10,7 @@ body{
 .body_container2{
     height: 1088.7px;
     width: 1263.33px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* justify-content: center; */
 
 }
@@ -299,4 +298,42 @@ body{
     height: 60px;
     width: 69px;
     /* border: 1px solid grey; */
+}
+
+.story{
+    height: 2029.06px;
+    width: 1263.33px;
+    border: 1px solid red;
+    padding-left: 30px;
+}
+.story_box{
+    height: 2029.06px;
+    width: 1200px;
+    border: 1px solid black;
+}
+.story_box_top{
+    height: 50.4px;
+    width: 1200px;
+    border: 1px solid black;
+}
+.story_box_content{
+    height: 1728.67px;
+    width: 1200px;
+    border: 1px solid blue;
+    display: flex;
+}
+.story_box_left{
+    height: 1728.67px;
+    width: 300px;
+    border: 1px solid black;
+}
+.story_box_right{
+    height: 1728.67px;
+    width: 900px;
+    border: 1px solid black;
+}
+.sidebar{
+    height: 347.19px;
+    width: 260px;
+    border: 1px solid yellow;
 }

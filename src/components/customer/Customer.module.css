@@ -18,48 +18,64 @@ body{
 .body_container3{
     height: 1088.7px;
     width: 1200px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* justify-content: center; */
+    padding-left: 30px;
 
 }
 .text1_container{
     height: 60px;
     width: 1200px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .text1_container h1{
-    justify-content: left;
-    padding-left: 0%;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #373837;
+    font-size: 50px;
+    
 }
 .text2container{
     height: 37.7px;
     width: 1200px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
+.text2container h3{
+    font-weight: 400;
+    text-decoration: none;
+    font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+    font-size: 29px;
+    line-height: 1.3;
+}
+
 .boxcontainer{
     height: 135px;
     width: 1200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display:flex;
     /* justify-content: space-between; */
 }
 .box1{
     height: 133px;
-    width: 389.33px;
+    width: 400px;
     border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 .box2{
     height: 133px;
-    width: 389.33px;
+    width: 400px;
     border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 .box3{
     height: 133px;
-    width: 389.33px;
+    width: 400px;
     border: 1px solid red;
     display: flex;
     justify-content: space-between;
@@ -68,46 +84,112 @@ body{
 .box11{
     height: 93px;
     width: 219.46px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    padding-left: 5px;
+}
+.box11 h2{
+    font-weight: 400;
+    text-decoration: none;
+    font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+    font-size: 42px;
+    line-height: 20px;
+}
+.box11 h4{
+    font-weight: normal;
+    text-decoration: none;
+    font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+    font-size: 26px;
+    margin-bottom: 5px;
+    line-height: 0px;
 }
 .box12{
     height: 70px;
     width: 81px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    margin-top: 25px;
+    padding-right: 10px;
 }
 
 .box21{
     height: 93px;
     width: 219.46px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    padding-left: 10px;
+}
+.box21 h2{
+    font-weight: 400;
+    text-decoration: none;
+    font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+    font-size: 42px;
+    line-height: 20px;
+}
+.box21 h4{
+    font-weight: normal;
+    text-decoration: none;
+    font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+    font-size: 26px;
+    margin-bottom: 5px;
+    line-height: 0px;
 }
 .box22{
     height: 70px;
     width: 81px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    margin-top: 25px;
+    padding-right: 20px;
 }
 
 .box31{
     height: 93px;
     width: 219.46px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    padding-left: 10px;
+}
+.box31 h2{
+    font-weight: 400;
+    text-decoration: none;
+    font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+    font-size: 42px;
+    line-height: 20px;
+}
+.box31 h4{
+    font-weight: normal;
+    text-decoration: none;
+    font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+    font-size: 26px;
+    margin-bottom: 5px;
+    line-height: 0px;
 }
 .box32{
     height: 70px;
     width: 81px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    margin-top: 25px;
+    
 }
 
 .feature_story{
     height: 350px;
     width: 1200px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
 }
 .feature_story_box1{
     height: 350px;
     width: 600px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .feature_story_box1 img{
     height: 350px;
@@ -119,12 +201,13 @@ body{
 .feature_story_box2{
     height: 350px;
     width: 600px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .feature_story_box21{
     height: 203.4px;
     width: 600px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    padding-left: 35px;
 }
 .feature_story_box21 button{
     background-color: rgba(29,30,28,100%);
@@ -166,4 +249,54 @@ body{
     font-style: normal;
     color: #1d1e1c;
     font-size: 29px;
+}
+
+.logo{
+    height: 60px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    opacity: .2;
+    margin-top: 100px;
+}
+.logo1{
+    height: 60px;
+    width: 48px;
+    /* border: 1px solid grey; */
+}
+.logo2{
+    height: 60px;
+    width: 68px;
+    /* border: 1px solid grey; */
+}
+.logo3{
+    height: 60px;
+    width: 149px;
+    /* border: 1px solid grey; */
+}
+.logo4{
+    height: 60px;
+    width: 48px;
+    /* border: 1px solid grey; */
+}
+.logo5{
+    height: 60px;
+    width: 121px;
+    /* border: 1px solid grey; */
+}
+.logo6{
+    height: 60px;
+    width: 118px;
+    /* border: 1px solid grey; */
+}
+.logo7{
+    height: 60px;
+    width: 48px;
+    /* border: 1px solid grey; */
+}
+.logo8{
+    height: 60px;
+    width: 69px;
+    /* border: 1px solid grey; */
 }

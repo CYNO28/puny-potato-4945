@@ -7,12 +7,18 @@ const Customer=()=>{
         <div className={styles.body_container}>
             <div className={styles.body_container2}>
                 <div className={styles.body_container3}>
+                    <br></br>
+                    <br></br>
                     <div className={styles.text1_container}>
                         <h1>See how Harvest helps teams like yours thrive</h1>
                     </div>
+                    {/* <br></br> */}
                     <div className={styles.text2container}>
-                        <p>Teams of all sizes, across industries, and around the world track time with Harvest.</p>
+                        <h3>Teams of all sizes, across industries, and around the world track time with Harvest.</h3>
                     </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                     <div className={styles.boxcontainer}>
                     <div className={styles.box1}>
                         <div className={styles.box11}>
@@ -42,6 +48,10 @@ const Customer=()=>{
                         </div>
                     </div>
                     </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                     <div className={styles.feature_story}>
                         <div className={styles.feature_story_box1}>
                             <img src="https://www.getharvest.com/hs-fs/hubfs/customer-profile.jpg?width=1181&name=customer-profile.jpg"></img>
@@ -53,6 +63,32 @@ const Customer=()=>{
                                 <button>Read Customer Story</button>
                             </div>
                         </div>
+                    </div>
+                    <div className={styles.logo}>
+                    <div className={styles.logo1}>
+                        <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-vw.svg?noresize"></img>
+                    </div>
+                    <div className={styles.logo2}>
+                        <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-aclu.svg?noresize"></img>
+                    </div>
+                    <div className={styles.logo3}>
+                        <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-conde.svg?noresize"></img>
+                    </div>
+                    <div className={styles.logo4}>
+                        <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-dell.svg?noresize"></img>
+                    </div>
+                    <div className={styles.logo5}>
+                        <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-amnesty.svg?noresize"></img>
+                    </div>
+                    <div className={styles.logo6}>
+                        <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-deloitte.svg?noresize"></img>
+                    </div>
+                    <div className={styles.logo7}>
+                        <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-lululemon.svg?noresize"></img>
+                    </div>
+                    <div className={styles.logo8}>
+                        <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-yale.svg?noresize"></img>
+                    </div>
                     </div>
                 </div>
                 

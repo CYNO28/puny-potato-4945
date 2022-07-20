@@ -2,6 +2,7 @@ import React from 'react'
 import style from './navbar.module.css'
 const Navbar = () => {
   return (
+    <div className={style.NavbarWrapper}>
     <div className={style.Navbar}>
         <div className={style.NavbarLeftSection}>
         <svg color='#fa5d00e6'
@@ -39,6 +40,7 @@ const Navbar = () => {
                 >
               </div>
               </div>
+    </div>
     </div>
   )
 }

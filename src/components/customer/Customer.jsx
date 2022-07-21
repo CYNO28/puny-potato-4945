@@ -12,7 +12,7 @@ const Customer=()=>{
                     <div className={styles.text1_container}>
                         <h1>See how Harvest helps teams like yours thrive</h1>
                     </div>
-                    {/* <br></br> */}
+                    
                     <div className={styles.text2container}>
                         <h3>Teams of all sizes, across industries, and around the world track time with Harvest.</h3>
                     </div>

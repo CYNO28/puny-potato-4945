@@ -6,8 +6,8 @@ const Finally = () => {
         <div className={style.container}>
             <div className={style.rating}>
                 <img src="/images/Rate_stars.svg" alt="" />
-                <p className={style.ratingdarktext}>4.6</p>
-                <p className={style.ratingfadedtext}>(491 reviews)</p>
+                <p className={style.ratingdarktext}>4.6  </p>
+                <p className={style.ratingfadedtext}> {'  '}  ( 491 reviews )</p>
             </div>
             <div className={style.heading}>
                 <h1>

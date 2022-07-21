@@ -154,7 +154,40 @@ function Why_harvest() {
         </div>
       </div>
       <hr style={{ width: "80%" }} />
+
+      {/* images section */}
+
+      <div id= {styles.imgContain}>
+         <img src="https://images.squarespace-cdn.com/content/v1/578f1057be6594d57854f841/1586983405162-O5R9715W1AFSG7SJP2LR/Volkswagen_greyscale.png" alt="" />
+         <img src="https://brandslogos.com/wp-content/uploads/images/large/aclu-logo-black-and-white.png" alt="" />
+         <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Conde_Nast_logo.png" alt="" />
+         <img src="https://i.pinimg.com/originals/77/bb/5d/77bb5d345c6211d14227cbd47834a456.png" alt="" />
+         <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-amnesty.svg?noresize" alt="" />\
+         <img src="https://www.actis.co.in/wp-content/uploads/2016/06/deloitte-logo-grey-300x171.png" alt="" />
+         <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-lululemon.svg?noresize" alt="" />
+         <img src="https://beinecke.library.yale.edu/sites/default/files/yalelogo-book_0_12.jpg" alt="" />
+     </div>
+
+     <hr />
+
+             {/* Bottom section */}
+
+     <div id= {styles.track}>
+          <div>
+               <h3>Start tracking time today</h3>
+               <p>Join 70,000+ companies spending their time wisely with Harvest.</p>
+               <div>
+                   <button id= {styles.btn2}>Try Harvest free</button>
+                   <p>Free 30-day trial. No credit card required.</p>
+               </div>
+          </div>
+          <img src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/illoglyphs/footer-illo-comp.svg" alt="" />
+   </div>
+
+
+
     </div>
+
   );
 }
 

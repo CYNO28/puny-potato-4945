@@ -357,7 +357,7 @@ body{
     margin-bottom: 8px;
     padding: 13px 25px;
     transition: background-color .2s;
-    background-color: #fff8ef;
+    background-color: #fee8d8;
     text-align: left;
 }
  /* .sidebar button:hover{
@@ -464,7 +464,7 @@ body{
     margin-top: 20px;
     margin-left: 15px;
     display: inline-block;
-    color: rgba(79, 79, 78, 0.6);
+    color: rgba(100, 100, 99, 0.6);
 }
 .bottom_box2{
     height: 236.87px;
@@ -508,3 +508,4 @@ body{
     font-size: 16px;
 
 }
+

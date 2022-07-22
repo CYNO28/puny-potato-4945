@@ -1,5 +1,4 @@
 import './App.css';
-import Customer from './components/customer/Customer';
 
 
 function App() {

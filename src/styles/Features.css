@@ -1,0 +1,298 @@
+/* Everything css start */
+body{
+  background-color: rgb(255, 248, 241);
+}
+.mainDiv {
+  /* border: 1px solid black; */
+  height: auto;
+  width: 99%;
+  background-color: rgb(255, 248, 241);
+}
+
+.everythingDiv {
+  height: 200px;
+  width: 96%;
+  border-bottom: 1px solid rgb(224, 159, 6);
+  margin: 0px 0px 0px 15px;
+}
+
+.textDiv-everything {
+  height: 35%;
+  width: 95%;
+  /* border: 1px solid black; */
+  margin: 60px 0px 0px 0px;
+  text-align: left;
+}
+
+.textDiv-everything h1 {
+  font-weight: 500;
+  text-decoration: none;
+  font-family: MuotoWeb, sans-serif;
+  font-style: normal;
+  color: #1d1e1c;
+  font-size: 30px;
+  margin: 0px 0px 0px 10px;
+}
+
+.textDiv-everything p {
+  display: block;
+  font-size: 17px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  /* font-weight: bold; */
+  margin: 5px 0px 10px 10px;
+}
+
+.three-everything-div {
+  height: 20%;
+  width: 95%;
+  /* border: 1px solid blueviolet; */
+  margin: 20px 0px 0px 0px;
+  display: flex;
+}
+
+.three-everything-div div {
+  height: 90%;
+  width: 30%;
+  border: 1px solid black;
+  margin: 0px 0px 0px 10px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.three-everything-div div p {
+  font-size: 12px;
+  margin: 7px 0px 10px 15px;
+}
+
+.three-everything-div div img {
+  height: 23px;
+  width: 30px;
+  margin: 7px 0px 0px 10px;
+}
+
+/* Everything css End */
+
+/* Time Tracking css start */
+
+.time-tracking-main-div {
+  height: 500px;
+  width: 96%;
+  /* border-bottom: 2px solid green; */
+  border-bottom: 1px solid rgb(224, 159, 6);
+  margin: 20px 0px 0px 15px;
+}
+
+.time-tracking-div {
+  height: 65%;
+  width: 98%;
+  margin: 20px 0px 0px 10px;
+  /* border: 2px solid blue; */
+  display: flex;
+}
+
+
+
+.time-tracking-text-div1 h5 {
+  font-weight: 500;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: MuotoWeb, sans-serif;
+  font-style: normal;
+  color: rgb(250, 93, 0);
+  margin: 0px 0px 0px 0px;
+}
+
+.time-tracking-text-div1 p {
+  font-size: 13px;
+  margin: 10px 0px 0px 0px;
+}
+
+.time-tracking-img-div {
+  height: 90%;
+  width: 65%;
+  margin: 20px 0px 0px 20px;
+  /* border: 4px solid rgb(11, 11, 11); */
+}
+
+.time-tracking-img-div img {
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  border: 1px solid rgb(7, 7, 7);
+}
+
+.time-tracking-text-div1 button {
+  background-color: rgb(250, 93, 0);
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 26px;
+  width: 80%;
+  margin: 10px 0px 0px 0px;
+}
+
+.time-tracking-three-main-div {
+  height: 30%;
+  width: 96%;
+  margin: 20px 0px 0px 0px;
+  /* border: 1px solid rgb(11, 11, 11); */
+  display: flex;
+}
+
+.time-tracking-three-div {
+  height: 90%;
+  width: 33%;
+  margin: 0px 0px 0px 20px;
+  /* border: 1px solid rgb(117, 3, 3); */
+}
+
+.time-tracking-img-text-div {
+  height: 30%;
+  width: 95%;
+  margin: 0px 0px 0px 0px;
+  /* border: 4px solid blue; */
+  display: flex;
+}
+/* ** */
+
+.time-tracking-text-div1{
+  height: 35%;
+  width: 30%;
+  margin: 10% 0px 20px 0px;
+  /* border: 5px solid rgb(7, 151, 142); */
+}
+
+/* ** */
+
+.time-tracking-text-div {
+  height: 60%;
+  width: 95%;
+  margin: 0px 0px 0px 0px;
+  /* border: 1px solid red; */
+  text-align: left;
+}
+
+.time-tracking-img-text-div img {
+  height: 80%;
+  width: 30%;
+  margin: 0px 0px 0px 0px;
+  /* border: 4px solid blue;  */
+   display: flex;
+}
+
+.time-tracking-img-text-div p {
+  font-size: 12px;
+  margin: 2px 0px 0px -5px;
+}
+
+.time-tracking-text-div p {
+  font-size: 11px;
+}
+
+/* Time Tracking css End */
+
+/* Harvest css start */
+
+
+.Harvest-easy-main-div {
+  height: 250px;
+  width: 95%;
+  margin: 20px 0px 0px 0px;
+  /* border: 4px solid red; */
+  display: flex;
+}
+
+.Harvest-easy-img-div {
+  height: 90%;
+  width: 35%;
+  margin: 20px 0px 0px 20px;
+  /* border: 4px solid rgb(77, 7, 175); */
+}
+
+.Harvest-easy-img-div img {
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  /* border: 4px solid rgb(77, 7, 175); */
+  border-radius: 10px;
+}
+
+.Harvest-easy-txt-div {
+  height: 40%;
+  width: 65%;
+  margin: 10% 0px 0px 0px;
+  /* border: 4px solid rgb(130, 4, 116); */
+  text-align: left;
+}
+
+.Harvest-easy-txt-div p {
+  font-size: 15px;
+  margin: -3px 0px 10px 30px;
+}
+
+.Harvest-easy-txt-name-div {
+  height: 40%;
+  width: 80%;
+  margin: 0px 0px 0px 0px;
+  /* border: 4px solid rgb(8, 1, 8); */
+  text-align: left;
+}
+
+.Harvest-easy-txt-name-div h5 {
+  margin: -4px 0px 5px 30px;
+}
+
+
+/* ***Second Harvest*** */
+
+.Harvest-easy-main-div1 {
+  height: 250px;
+  width: 95%;
+  margin: 20% 0px 0px 0px;
+  /* border: 1px solid red; */
+  border-top: 1px solid rgb(224, 159, 6);
+  display: flex;
+}
+
+.Harvest-easy-img-div1 {
+  height: 90%;
+  width: 35%;
+  margin: 20px 0px 0px 20px;
+  /* border: 4px solid rgb(77, 7, 175); */
+}
+
+.Harvest-easy-img-div1 img {
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  /* border: 4px solid rgb(77, 7, 175); */
+  border-radius: 10px;
+}
+
+.Harvest-easy-txt-div1 {
+  height: 40%;
+  width: 65%;
+  margin: 10% 0px 0px 0px;
+  /* border: 4px solid rgb(130, 4, 116); */
+  text-align: left;
+}
+
+.Harvest-easy-txt-div1 p {
+  font-size: 15px;
+  margin: -3px 0px 10px 30px;
+}
+
+.Harvest-easy-txt-name-div1 {
+  height: 40%;
+  width: 80%;
+  margin: 0px 0px 0px 0px;
+  /* border: 4px solid rgb(8, 1, 8); */
+  text-align: left;
+}
+
+.Harvest-easy-txt-name-div1 h5 {
+  margin: -4px 0px 5px 30px;
+}

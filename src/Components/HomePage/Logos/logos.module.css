@@ -1,0 +1,39 @@
+.upperline {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.colortext {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 0.5rem;
+  color: rgba(250, 93, 0, 100%);
+}
+.normaltext {
+    font-size: 18px;
+    margin-right: 0.5rem;
+
+}
+.line {
+  border-top: 1px solid rgba(250, 93, 0, 100%);
+  width: 69%;
+
+}
+.logoflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
+  /* border: 1px solid red; */
+}
+.logoflex svg {
+  flex: 1;
+  color: #9f9f9f;
+}
+.bottomline {
+  border-bottom: 1px solid rgba(250, 93, 0, 100%);
+}

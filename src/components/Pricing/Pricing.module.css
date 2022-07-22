@@ -1,0 +1,295 @@
+* {
+  font-family: muoto web, sans-serif;
+  color: #1d1e1c;
+}
+#content {
+  text-align: left;
+  line-height: 10px;
+}
+#head {
+  font-size: 50px;
+  font-weight: 400;
+  color: #1d1e1c;
+  font-family: muoto web, sans-serif;
+  margin-left: 230px;
+}
+#info {
+  font-size: 29px;
+  color: #1d1e1c;
+  margin-left: 230px;
+}
+#pContain {
+  display: flex;
+
+}
+#pContain > p {
+  font-size: 16px;
+
+}
+#p {
+  color: #00000080;
+  margin-left: 20px;
+}
+#p1{
+    margin-left: 230px;
+}
+#unitContain {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+#unit1 {
+  display: flex;
+  height: 250px;
+  width: 550px;
+  border: 1px solid #fa5d00;
+  justify-content: space-between;
+  border-radius: 30px 0px 30px 0px;
+}
+#unit1 > div > p {
+  font-size: 48px;
+  color: #fa5d00;
+}
+
+#unit2 {
+  display: flex;
+  height: 250px;
+  width: 550px;
+  border: 1px solid #fa5d00;
+  border-radius: 30px 0px 30px 0px;
+  justify-content: space-between;
+}
+#unit2 > div > p {
+  font-size: 48px;
+  color: #fa5d00;
+}
+#left {
+  margin-left: 30px;
+}
+#left > h3 {
+  font-size: 16px;
+  color: #1d1e1c;
+  text-align: left;
+  font-weight: 530;
+}
+#h3 {
+  margin-top: -20px;
+}
+#right {
+  margin-right: 30px;
+}
+#right > h1 {
+  font-size: 90px;
+  color: #1d1e1c;
+  font-weight: 100;
+  margin-top: 40px;
+}
+#right > h4 {
+  font-size: 18px;
+  color: #1d1e1c;
+  margin-top: -50px;
+  font-weight: 400;
+}
+
+#pro {
+  margin-left: -30px;
+}
+#left2 {
+  margin-left: 30px;
+}
+#left2 > h3 {
+  font-size: 16px;
+  color: #1d1e1c;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 530;
+}
+
+#right2 {
+  margin-right: 30px;
+}
+#right2 > h1 {
+  font-size: 90px;
+  color: #1d1e1c;
+  font-weight: 100;
+  margin-top: 40px;
+}
+#right2 > h4 {
+  font-size: 18px;
+  color: #1d1e1c;
+  font-weight: 400;
+  margin-top: -50px;
+}
+#seat {
+  margin-top: -20px;
+}
+#btn {
+  height: 50px;
+  width: 240px;
+  background-color: #fa5d00;
+  color: #fff8f1;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px;
+  margin-top: 80px;
+}
+#day {
+  font-size: 18px;
+  color: #757575;
+}
+#features {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+#features > h2 {
+  font-size: 42px;
+  width: 25%;
+  font-weight: 400;
+  margin-left: -30px;
+  text-align: left;
+  margin-top: 20px;
+}
+hr {
+  border: 1px solid #fa5d00;
+  width: 75%;
+}
+#features > div {
+  margin-left: -100px;
+}
+#features > div > p {
+  text-align: left;
+  font-size: 18px;
+}
+
+#msgContain {
+  display: flex;
+  margin-top: 80px;
+}
+#msgContain > img {
+  height: 380px;
+  width: 608px;
+  border-radius: 30px 0px 30px 0px;
+  margin-left: 200px;
+  object-fit: cover;
+}
+#msg {
+  margin-left: 50px;
+}
+#msg > h3 {
+  font-size: 30px;
+  width: 70%;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 80px;
+}
+#msg > h2 {
+  font-size: 20px;
+  text-align: left;
+}
+#msg > p {
+  font-size: 18px;
+  text-align: left;
+}
+#imgContain{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+#imgContain>img{
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+    background: transparent;
+    /* filter: grayscale(100%); */
+  
+}
+                           /* FAQ */
+
+
+#frequent{
+    font-size: 42px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+#faqContain {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+#queContain {
+  height: auto;
+  width: 500px;
+  margin-left: -100px;
+}
+#queContain > hr {
+  width: 500px;
+}
+#queContain > div > h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+#queContain > div > p {
+  width: 500px;
+  text-align: left;
+  font-size: 17px;
+}
+
+
+            /* Bottom part */
+
+#track{
+     display: flex;
+     background-color: white;
+     justify-content: space-evenly;
+     
+}
+#track>div{
+    background-color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#track>div>h3{
+    background-color: white;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: left;
+}
+#track>div>p{
+    font-size: 26px;
+    background-color: white;
+    width: 70%;
+    text-align: left;
+}
+#btn2{
+    height: 50px;
+    width: 230px;
+    background-color: #fa5d00;
+    color: #fff8f1;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px;
+}
+#track>div>div{
+    display: flex ;
+    background-color: white;
+}
+#track>div>div>p{
+     color: grey;
+     margin-left: 30px;
+     background-color: white;
+}
+#track>img{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+span{
+    color: #fa5d00;
+    font-size: 30px;
+}

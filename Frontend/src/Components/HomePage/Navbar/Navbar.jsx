@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className={style.NavbarRightSection}>
             <div>
                 <Link to={'Signup'}
-                  >Sign in</
+                  >Sign in</Link
                 >
                 <a href="" className={style.TryBtn}
                   >Try Harvest free</a

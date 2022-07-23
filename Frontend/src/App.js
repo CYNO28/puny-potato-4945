@@ -6,6 +6,7 @@ import { Features } from './Pages/Features'
 import HomePage from './Pages/HomePage'
 import Integrations from './Pages/Integrations/Integrations'
 import Pricing from './Pages/Pricing/Pricing'
+import Signin from './Pages/Signin/Signin'
 import Why_harvest from './Pages/whyharvest/Why_harvest'
 const App = () => {
   return (<>
@@ -17,6 +18,10 @@ const App = () => {
 <Route path={"/Customer"} element={<Customer></Customer>}/>
 <Route path={"/Integrations"} element={<Integrations></Integrations>}/>
 <Route path={'/Pricing'} element={<Pricing/>}/>
+
+<Route path={'Signup'} element={<Signin/>}/>
+
+
 </Routes>
 </>
   )

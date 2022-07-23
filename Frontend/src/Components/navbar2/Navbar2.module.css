@@ -184,9 +184,9 @@
 .right2{
     height: 48px;
     width: 122.76px;
-    border: 1px solid black;
     display: flex;
     background-color: #fa5d00;
+    border: none;
 }
 .right2:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
     background: rgba(255,255,255,.2);
@@ -194,12 +194,19 @@
 .right_img{
     height: 28px;
     width: 28px;
-    border: 1px solid black;
     border-radius: 15px;
     margin-top: 7px;
 }
 .right_name{
     height: 45px;
     width: 70.76px;
-    border: 1px solid black;
+}
+.right_name{
+color: white;
+font-size:1rem ;
+white-space:nowrap;
+text-overflow:ellipsis;
+display: flex;
+align-items: center;
+margin-left: .5rem;
 }

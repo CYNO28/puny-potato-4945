@@ -1,0 +1,80 @@
+body {
+    background-image: url('https://res.cloudinary.com/spiralyze/image/upload/f_auto/Harvest/3048-free-trial-2-column%2Bprogressive-form/aura-top-right-corner-min.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.signin > input {
+    padding: 10px;
+    margin: 10px 10px;
+    width: 250px;
+}
+
+
+.formTag {
+    width: fit-content;
+    margin: auto;
+    padding: 5%;
+    
+}
+.singinForm {
+    padding-top: 8%;
+    background-color: #EEEEEE;
+    height: 72.5vh;
+}
+
+.formdiv label {
+
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.formdiv input {
+
+    padding: 10px;
+    margin: 10px 10px;
+    width: 250px;
+
+} 
+
+
+h5 {
+    display: flex;
+    flex-direction: row;
+    color: #9999A9;
+    padding: 3px;
+    
+} 
+h5:before,
+h5:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #9999A9;
+    margin: auto;
+}
+
+.signin_card {
+
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 8px;
+    padding: 30px 30px;
+    width: fit-content;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #888888;
+
+}
+.signin_card input {
+    padding: 6px;
+    margin: 8px 10px;
+    width: 310px; 
+}
+.heading {
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+.heading h2 {
+    color: rgb(43, 39, 39);
+}

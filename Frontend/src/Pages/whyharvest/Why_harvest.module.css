@@ -39,6 +39,7 @@
 hr {
   border: 1px solid #fa5d00;
   width: 100%;
+
 }
 
 /* Second section */
@@ -80,7 +81,7 @@ hr {
   color: white;
   background-color: black;
   font-size: 18px;
-  margin-left: -200px;
+  margin-left: 200px;
   margin-top: 30px;
 }
 #right > img {
@@ -142,15 +143,14 @@ hr {
   color: white;
   background-color: black;
   font-size: 18px;
-  margin-left: -410px;
+  margin-left:  80px;
   margin-top: 30px;
 }
 #left2 {
-
   width: 50%;
 }
 #left2 > img {
-  margin-right: -100px;
+    margin-left: 160px;
 }
 #need{
     color: grey;
@@ -209,7 +209,7 @@ hr {
   color: white;
   background-color: black;
   font-size: 18px;
-  margin-left: -180px;
+  margin-left: 200px;
   margin-top: 30px;
 }
 
@@ -245,7 +245,7 @@ hr {
   width: 50%;
 }
 #left4 > img {
-  margin-right: -100px;
+  margin-left: 140px;
 }
 
 
@@ -284,7 +284,7 @@ hr {
   color: white;
   background-color: black;
   font-size: 18px;
-  margin-left: -410px;
+  margin-left: 80px;
   margin-top: 30px;
 }
 

@@ -31,7 +31,7 @@ const App = () => {
 	}, []);
   
   return (<>
-   <Navbar/>
+   {/* <Navbar/>
 <Routes>
 <Route path={'/'} element={<HomePage/>}></Route>
 <Route path={"/whyHarvest"} element={<Why_harvest></Why_harvest>}/>
@@ -52,8 +52,8 @@ const App = () => {
 
 
 
-</Routes>
-
+</Routes> */}
+<Expenses/>
 </>
   )
 }

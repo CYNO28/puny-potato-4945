@@ -115,3 +115,28 @@
     color: grey;
     font-size: 14px;
 }
+#upperPart{
+    height: 40px;
+    width: 1200px;
+    background-color: #eeeeee;
+}
+#entry{
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+#division{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff1cd;
+    border: 1px solid grey;
+}
+#amount{
+    margin-top: 40px;
+}
+#a{
+    margin-top: 10px;
+    margin-left: 1000px;
+    color: rgb(40, 134, 211);
+}

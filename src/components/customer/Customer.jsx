@@ -1,6 +1,7 @@
 import react from "react";
 import styles from "./Customer.module.css"
 
+
 const Customer=()=>{
     return (
 
@@ -110,6 +111,7 @@ const Customer=()=>{
                                 <button><a>Web development & IT</a></button>
                             </div>
                         </div>
+
                         <div className={styles.story_box_right}>
                             <div className={styles.right_box1}>
                                 <div className={styles.b11}>

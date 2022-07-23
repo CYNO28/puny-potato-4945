@@ -360,6 +360,9 @@ body{
     background-color: #fee8d8;
     text-align: left;
 }
+.sidebar button:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
+    background: rgba(255,255,255,.2);
+}
  /* .sidebar button:hover{
     color: black;
 } */

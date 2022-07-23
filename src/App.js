@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Customer from "./components/customer/Customer"
+import Navbar2 from "./components/navbar2/Navbar2"
 
 
 function App() {
   return (
     <div className="App">
-        <Customer/>
+        <Navbar2/>
     </div>
   );
 }

@@ -14,6 +14,7 @@
     justify-content: space-between;
     margin-left: 40px;
 }
+
 .navbar_left{
     height: 48px;
     width: 518.63px;
@@ -184,7 +185,7 @@
 .right2{
     height: 48px;
     width: 122.76px;
-    border: 1px solid black;
+    border: 1px solid #fa5d00;
     display: flex;
     background-color: #fa5d00;
 }

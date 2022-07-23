@@ -7,6 +7,11 @@
   padding: 0 20px;
   /* border: 1px solid red; */
   height: 90px;
+  z-index: 12312;
+  background-color: white;
+  position: sticky;
+  top: 0;
+
 }
 .Navbar {
     display: flex;
@@ -17,10 +22,9 @@
     background-color: transparent;
     color: rgb(29, 30, 28);
     font-family: MuotoWeb, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    position: fixed;
     align-items: center;
-    top: 0;
     margin: auto;
+   
 }
 .Navbar a {
   margin: 0 20px 0 0;

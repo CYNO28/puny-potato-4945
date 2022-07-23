@@ -5,7 +5,7 @@ import styles from "../styles/Features.css";
 export const Features = () => {
   return (
     <div>
-      Features
+    
       <div className="mainDiv">
         <div className="everythingDiv">
           <div className="textDiv-everything">

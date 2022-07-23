@@ -1,10 +1,6 @@
 import React, { useState } from "react";
-// import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
-// import { Redirect } from "react-router";
 
-
-// import { submitSignInData } from "../../../Redux/Auth/authAction";
 import style from "./Signupstyle.module.css";
 
 export default function Signin() {

@@ -91,9 +91,9 @@ function Pricing() {
 
         <div id={styles.msg}>
           <h3>
-            <span>"</span>We needed something that worked, something super simple, because we
+            <span id= {styles.span}>"</span>We needed something that worked, something super simple, because we
             don’t want to have to teach people how to use it as part of
-            onboarding.<span>"</span>
+            onboarding.<span id= {styles.span}>"</span>
           </h3>
           <h2>Nick Frandsen</h2>
           <p>Co-founder and managing partner, Dovetail</p>

@@ -17,6 +17,12 @@
       "category": "Mileage",
       "amount": "140",
       "id": 7
+    },
+    {
+      "project": "Project1",
+      "category": "Meals",
+      "amount": "500",
+      "id": 8
     }
   ]
 }

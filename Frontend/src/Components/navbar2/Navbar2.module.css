@@ -1,0 +1,212 @@
+.navbar{
+    height: 48px;
+    width: 100%;
+    border: 1px solid #fa5d00;
+    background-color: #fa5d00;
+    /* display: block; */
+    
+}
+.navbar_content{
+    height: 48px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.navbar_left{
+    height: 48px;
+    width: 518.63px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.left1{
+    height: 48px;
+    width: 32px;
+    border: 1px solid #fa5d00;
+    background-color: #fa5d00;
+    padding: 0px;
+}
+.left1 img{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+.left1:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
+    background: rgba(255,255,255,.2);
+}
+.left2{
+    height: 48px;
+    width: 51.93px;
+    border: 1px solid #fa5d00;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #fa5d00;
+    font-family: "Muoto",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    cursor: pointer;
+}
+.left2 a{
+    text-decoration: none;
+    color: white;
+}
+.left3 a{
+    text-decoration: none;
+    color: white;
+}
+.left4 a{
+    text-decoration: none;
+    color: white;
+}
+.left5 a{
+    text-decoration: none;
+    color: white;
+}
+.left6 a{
+    text-decoration: none;
+    color: white;
+}
+.left7 a{
+    text-decoration: none;
+    color: white;
+}
+.left8 a{
+    text-decoration: none;
+    color: white;
+}
+
+.left2:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
+    background: rgba(255,255,255,.2);
+}
+
+.left3{
+    height: 48px;
+    width: 84.47px;
+    border: 1px solid #fa5d00;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #fa5d00;
+    font-family: "Muoto",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.left3:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
+    background: rgba(255,255,255,.2);
+}
+.left4{
+    height: 48px;
+    width: 75.76px;
+    border: 1px solid #fa5d00;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #fa5d00;
+    font-family: "Muoto",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.left4:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
+    background: rgba(255,255,255,.2);
+}
+.left5{
+    height: 48px;
+    width: 53.91px;
+    border: 1px solid #fa5d00;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #fa5d00;
+    font-family: "Muoto",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.left5:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
+    background: rgba(255,255,255,.2);
+}
+.left6{
+    height: 48px;
+    width: 73.11px;
+    border: 1px solid #fa5d00;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #fa5d00;
+    font-family: "Muoto",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.left6:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
+    background: rgba(255,255,255,.2);
+}
+.left7{
+    height: 48px;
+    width: 74.45px;
+    border: 1px solid #fa5d00;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #fa5d00;
+    font-family: "Muoto",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.left7:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
+    background: rgba(255,255,255,.2);
+}
+.left8{
+    height: 48px;
+    width: 73px;
+    border: 1px solid #fa5d00;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #fa5d00;
+    font-family: "Muoto",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.left8:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
+    background: rgba(255,255,255,.2);
+}
+
+.navbar_right{
+    height: 48px;
+    width: 197.48px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.right1{
+    height: 48px;
+    width: 74.72px;
+    border: 1px solid #fa5d00;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #fa5d00;
+    font-family: "Muoto",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.right1 a{
+    text-decoration: none;
+    color: white;
+}
+.right1:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
+    background: rgba(255,255,255,.2);
+}
+.right2{
+    height: 48px;
+    width: 122.76px;
+    display: flex;
+    background-color: #fa5d00;
+    border: none;
+}
+.right2:is(:hover,.is-current), .secondary-nav-item:is(:hover,.is-current) {
+    background: rgba(255,255,255,.2);
+}
+.right_img{
+    height: 28px;
+    width: 28px;
+    border-radius: 15px;
+    margin-top: 7px;
+}
+.right_name{
+    height: 45px;
+    width: 70.76px;
+}
+.right_name{
+color: white;
+font-size:1rem ;
+white-space:nowrap;
+text-overflow:ellipsis;
+display: flex;
+align-items: center;
+margin-left: .5rem;
+}

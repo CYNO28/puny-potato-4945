@@ -1,0 +1,36 @@
+.Container{
+    display: flex;
+    padding: 100px 0 50px ;
+    max-width: 1232px;
+    margin: auto;
+}
+.Container>div{
+    padding: 0 20px;
+    width: clamp(0px,628px,628px);
+}
+.heading{
+    text-align: start;
+    font-family: "Monarch","Georgia","Times New Roman",serif;
+    font-size: 75px;
+    line-height: 90px;
+    text-indent: -3px;
+    margin-left: -2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 850px) {
+    .heading{
+        font-size: 56px !important;
+    }
+}

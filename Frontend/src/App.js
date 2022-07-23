@@ -1,5 +1,6 @@
 import React from 'react'
 import {Routes,Route }from "react-router-dom"
+import Expenses from './Components/Expenses/Expenses'
 import Navbar from './Components/HomePage/Navbar/Navbar'
 import Customer from './Pages/customer/Customer'
 import { Features } from './Pages/Features'
@@ -23,6 +24,7 @@ const App = () => {
 
 
 </Routes>
+
 </>
   )
 }

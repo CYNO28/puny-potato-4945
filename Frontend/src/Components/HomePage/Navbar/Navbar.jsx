@@ -31,10 +31,8 @@ const Navbar = () => {
         </div>
         <div className={style.NavbarRightSection}>
             <div>
-                <a
-                  href=""
-                  id=""
-                  >Sign in</a
+                <Link to={'Signup'}
+                  >Sign in</
                 >
                 <a href="" className={style.TryBtn}
                   >Try Harvest free</a

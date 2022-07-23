@@ -44,7 +44,7 @@ const projectSchema = new mongoose.Schema({
   tasks: [
     {
       name: String,
-
+      
 
     },
   ],

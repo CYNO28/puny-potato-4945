@@ -1,13 +1,13 @@
 /* Everything css start */
-body{
-  background-color: rgb(255, 248, 241);
-}
+
 .mainDiv {
   /* border: 1px solid black; */
   height: auto;
   width: 99%;
   background-color: rgb(255, 248, 241);
 }
+
+
 
 .everythingDiv {
   height: 200px;

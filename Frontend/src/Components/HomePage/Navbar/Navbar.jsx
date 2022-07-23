@@ -1,7 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import style from './navbar.module.css'
-const Navbar = () => {
+
+ const Navbar = () => {
+  const {pathname}=useLocation()
+  const page=pathname.split('/')[1]
+  if(page=="Signup")return null
+  if(page=="Users")return null
   return (
     <div className={style.NavbarWrapper}>
     <div className={style.Navbar}>
@@ -39,6 +44,7 @@ const Navbar = () => {
                 >
               </div>
               </div>
+              
     </div>
     </div>
   )

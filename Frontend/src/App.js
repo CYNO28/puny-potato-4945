@@ -1,12 +1,16 @@
 import React from 'react'
-import {Routes,Route }from "react-router-dom"
+import {Routes,Route, useParams }from "react-router-dom"
+import Expenses from './Components/Expenses/Expenses'
 import Navbar from './Components/HomePage/Navbar/Navbar'
 import Customer from './Pages/customer/Customer'
 import { Features } from './Pages/Features'
 import HomePage from './Pages/HomePage'
 import Integrations from './Pages/Integrations/Integrations'
 import Pricing from './Pages/Pricing/Pricing'
+import Signin from './Pages/Signin/Signin'
+import User from './Pages/User/User'
 import Why_harvest from './Pages/whyharvest/Why_harvest'
+
 const App = () => {
   return (<>
    <Navbar/>
@@ -17,7 +21,12 @@ const App = () => {
 <Route path={"/Customer"} element={<Customer></Customer>}/>
 <Route path={"/Integrations"} element={<Integrations></Integrations>}/>
 <Route path={'/Pricing'} element={<Pricing/>}/>
+<Route path={'Signup'} element={<Signin/>}/>
+
+<Route path={"User"} element ={<User></User>}/>
+
 </Routes>
+
 </>
   )
 }

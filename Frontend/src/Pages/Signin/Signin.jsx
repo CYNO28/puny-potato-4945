@@ -8,25 +8,12 @@ import styled from "styled-components";
 import style from "./Signupstyle.module.css";
 
 export default function Signin() {
-  // const dispatch = useDispatch();
-  // const [inp, setInp] = useState();
-  // const isAuth = useSelector((state) => state.auth.isAuth);
-
-  // const handleInp = (e) => {
-  //   const { name, value } = e.target;
-  //   let payload = {
-  //     ...inp,
-  //     [name]: value,
-  //   };
-  //   setInp(payload);
-  // };
-
-  // const submitSignIn = (e) => {
-  //   e.preventDefault();
-
-  //   const action = submitSignInData(inp);
-  //   dispatch(action);
-  // };
+function googleauth(){
+  window.open(
+    `http://localhost:8080/auth/google/callback`,
+    "_self"
+  )
+}
   const Button = styled.button`
     width: 100%;
     margin-top: 20px;
@@ -67,7 +54,7 @@ export default function Signin() {
 
           <a style={{ textDecoration: 'none' }} href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?client_id=500745565949-k6idj8rm783v69v80gohems7j0ttit9n.apps.googleusercontent.com&login_hint&redirect_uri=https%3A%2F%2Fid.getharvest.com%2Fgoogle%2Foauth2%2Fcallback&response_type=code&scope=profile%20email&state=%7B%22intent%22%3A%22sign-in%22%2C%22authenticity_token%22%3A%22blVRmMsH--6a56U5iEJnvFbihZzNnkwhI1Hh7nRPH-je6weC1bm8-S14R9QFSpgxHYbrb7EQKORHN_pAr_A-EA%22%7D&flowName=GeneralOAuthFlow"> <div style={{ backgroundColor: "white", display: 'flex', border: '1px solid black', borderRadius: "20px" }}>
             <img width="30px" height="30px" style={{ marginTop: "10px", marginLeft: "20px" }} src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjUiIGhlaWdodD0iMjUiPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMTIuNSA2LjFjMiAwIDMuMy45IDQuMSAxLjZsMy0yLjljLTEuOS0xLjgtNC4zLTIuOC03LjEtMi44LTQuMSAwLTcuNyAyLjQtOS40IDUuOGwzLjQgMi42Yy45LTIuNSAzLjItNC4zIDYtNC4zeiIvPjwvZGVmcz48Y2xpcFBhdGggaWQ9ImIiPjx1c2UgeGxpbms6aHJlZj0iI2EiIG92ZXJmbG93PSJ2aXNpYmxlIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjYikiPjxkZWZzPjxyZWN0IGlkPSJjIiB4PSItMTUuNSIgeT0iLTE1LjUiIHdpZHRoPSIyMjUuMiIgaGVpZ2h0PSI1NiIvPjwvZGVmcz48Y2xpcFBhdGggaWQ9ImQiPjx1c2UgeGxpbms6aHJlZj0iI2MiIG92ZXJmbG93PSJ2aXNpYmxlIi8+PC9jbGlwUGF0aD48cmVjdCB4PSItMi43IiB5PSItMy44IiBjbGlwLXBhdGg9InVybCgjZCkiIGZpbGw9IiNFQTQzMzUiIHdpZHRoPSIyOC4xIiBoZWlnaHQ9IjIwLjEiLz48L2c+PGRlZnM+PHBhdGggaWQ9ImUiIGQ9Ik0yMi42IDEyLjdjMC0uOS0uMS0xLjUtLjItMi4xaC05Ljl2My45aDUuOGMtLjEgMS0uNyAyLjQtMi4xIDMuNGwzLjMgMi42YzEuOS0xLjkgMy4xLTQuNiAzLjEtNy44eiIvPjwvZGVmcz48Y2xpcFBhdGggaWQ9ImYiPjx1c2UgeGxpbms6aHJlZj0iI2UiIG92ZXJmbG93PSJ2aXNpYmxlIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjZikiPjxkZWZzPjxyZWN0IGlkPSJnIiB4PSItMTUuNSIgeT0iLTE1LjUiIHdpZHRoPSIyMjUuMiIgaGVpZ2h0PSI1NiIvPjwvZGVmcz48Y2xpcFBhdGggaWQ9ImgiPjx1c2UgeGxpbms6aHJlZj0iI2ciIG92ZXJmbG93PSJ2aXNpYmxlIi8+PC9jbGlwUGF0aD48cmVjdCB4PSI2LjciIHk9IjQuOCIgY2xpcC1wYXRoPSJ1cmwoI2gpIiBmaWxsPSIjNDI4NUY0IiB3aWR0aD0iMjEuNyIgaGVpZ2h0PSIyMS41Ii8+PC9nPjxkZWZzPjxwYXRoIGlkPSJpIiBkPSJNNi41IDE0LjZjLS4yLS43LS40LTEuNC0uNC0yLjEgMC0uNy4xLTEuNC4zLTIuMWwtMy4zLTIuNmMtLjcgMS40LTEuMSAzLTEuMSA0LjdzLjQgMy4zIDEuMSA0LjdsMy40LTIuNnoiLz48L2RlZnM+PGNsaXBQYXRoIGlkPSJqIj48dXNlIHhsaW5rOmhyZWY9IiNpIiBvdmVyZmxvdz0idmlzaWJsZSIvPjwvY2xpcFBhdGg+PGcgY2xpcC1wYXRoPSJ1cmwoI2opIj48ZGVmcz48cmVjdCBpZD0iayIgeD0iLTE1LjUiIHk9Ii0xNS41IiB3aWR0aD0iMjI1LjIiIGhlaWdodD0iNTYiLz48L2RlZnM+PGNsaXBQYXRoIGlkPSJsIj48dXNlIHhsaW5rOmhyZWY9IiNrIiBvdmVyZmxvdz0idmlzaWJsZSIvPjwvY2xpcFBhdGg+PHJlY3QgeD0iLTMuOCIgeT0iMiIgY2xpcC1wYXRoPSJ1cmwoI2wpIiBmaWxsPSIjRkJCQzA1IiB3aWR0aD0iMTYuMiIgaGVpZ2h0PSIyMS4xIi8+PC9nPjxkZWZzPjxwYXRoIGlkPSJtIiBkPSJNMTIuNSAyM2MyLjggMCA1LjItLjkgNy0yLjVsLTMuMy0yLjZjLS45LjYtMi4xIDEuMS0zLjYgMS4xLTIuOCAwLTUuMS0xLjgtNi00LjRsLTMuNCAyLjZjMS43IDMuNCA1LjIgNS44IDkuMyA1Ljh6Ii8+PC9kZWZzPjxjbGlwUGF0aCBpZD0ibiI+PHVzZSB4bGluazpocmVmPSIjbSIgb3ZlcmZsb3c9InZpc2libGUiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNuKSI+PGRlZnM+PHJlY3QgaWQ9Im8iIHg9Ii0xNS41IiB5PSItMTUuNSIgd2lkdGg9IjIyNS4yIiBoZWlnaHQ9IjU2Ii8+PC9kZWZzPjxjbGlwUGF0aCBpZD0icCI+PHVzZSB4bGluazpocmVmPSIjbyIgb3ZlcmZsb3c9InZpc2libGUiLz48L2NsaXBQYXRoPjxyZWN0IHg9Ii0yLjciIHk9IjguNyIgY2xpcC1wYXRoPSJ1cmwoI3ApIiBmaWxsPSIjMzRBODUzIiB3aWR0aD0iMjgiIGhlaWdodD0iMjAuMSIvPjwvZz48L3N2Zz4=" alt="" />
-            <p style={{ textAlign: "left", marginLeft: "70px", textDecoration: "none", color: "black" }} class="pds-button pds-button-lg pds-w-full button-gapps" href="/google/oauth2/new?state%5Bintent%5D=sign-in">
+            <p onClick={googleauth} style={{ textAlign: "left", marginLeft: "70px", textDecoration: "none", color: "black" }} class="pds-button pds-button-lg pds-w-full button-gapps" href="/google/oauth2/new?state%5Bintent%5D=sign-in">
               Sign in with Google
             </p>
           </div></a>

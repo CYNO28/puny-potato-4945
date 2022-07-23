@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import style from './navbar.module.css'
 const Navbar = () => {
   return (
@@ -22,11 +23,11 @@ const Navbar = () => {
                   </svg>
         </div>
         <div className={style.NavbarMidSection}>
-            <a href="">Why Harvest?</a>
-            <a href="">Features</a>
-            <a href="">Customers</a>
-            <a href="">Integrations</a>
-            <a href="">Pricing</a>
+            <Link to={'/WhyHarvest'}>Why Harvest?</Link>
+            <Link to={'Features'}>Features</Link>
+            <Link to={'Customer'}>Customers</Link>
+            <Link to={'Integrations'}>Integrations</Link>
+            <Link to={'Pricing'}>Pricing</Link>
         </div>
         <div className={style.NavbarRightSection}>
             <div>

@@ -8,7 +8,7 @@ import Integration from '../Components/HomePage/Integrations/Integration'
 const HomePage = () => {
   return (
     <div>
-        <Navbar></Navbar>
+
         <Finally/>  
         <Logos/> 
         <Features/>     

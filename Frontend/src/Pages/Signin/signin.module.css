@@ -1,0 +1,102 @@
+.img {
+  height: 25px;
+  display: inline-block;
+  width: 25px;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjUiIGhlaWdodD0iMjUiPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMTIuNSA2LjFjMiAwIDMuMy45IDQuMSAxLjZsMy0yLjljLTEuOS0xLjgtNC4zLTIuOC03LjEtMi44LTQuMSAwLTcuNyAyLjQtOS40IDUuOGwzLjQgMi42Yy45LTIuNSAzLjItNC4zIDYtNC4zeiIvPjwvZGVmcz48Y2xpcFBhdGggaWQ9ImIiPjx1c2UgeGxpbms6aHJlZj0iI2EiIG92ZXJmbG93PSJ2aXNpYmxlIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjYikiPjxkZWZzPjxyZWN0IGlkPSJjIiB4PSItMTUuNSIgeT0iLTE1LjUiIHdpZHRoPSIyMjUuMiIgaGVpZ2h0PSI1NiIvPjwvZGVmcz48Y2xpcFBhdGggaWQ9ImQiPjx1c2UgeGxpbms6aHJlZj0iI2MiIG92ZXJmbG93PSJ2aXNpYmxlIi8+PC9jbGlwUGF0aD48cmVjdCB4PSItMi43IiB5PSItMy44IiBjbGlwLXBhdGg9InVybCgjZCkiIGZpbGw9IiNFQTQzMzUiIHdpZHRoPSIyOC4xIiBoZWlnaHQ9IjIwLjEiLz48L2c+PGRlZnM+PHBhdGggaWQ9ImUiIGQ9Ik0yMi42IDEyLjdjMC0uOS0uMS0xLjUtLjItMi4xaC05Ljl2My45aDUuOGMtLjEgMS0uNyAyLjQtMi4xIDMuNGwzLjMgMi42YzEuOS0xLjkgMy4xLTQuNiAzLjEtNy44eiIvPjwvZGVmcz48Y2xpcFBhdGggaWQ9ImYiPjx1c2UgeGxpbms6aHJlZj0iI2UiIG92ZXJmbG93PSJ2aXNpYmxlIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjZikiPjxkZWZzPjxyZWN0IGlkPSJnIiB4PSItMTUuNSIgeT0iLTE1LjUiIHdpZHRoPSIyMjUuMiIgaGVpZ2h0PSI1NiIvPjwvZGVmcz48Y2xpcFBhdGggaWQ9ImgiPjx1c2UgeGxpbms6aHJlZj0iI2ciIG92ZXJmbG93PSJ2aXNpYmxlIi8+PC9jbGlwUGF0aD48cmVjdCB4PSI2LjciIHk9IjQuOCIgY2xpcC1wYXRoPSJ1cmwoI2gpIiBmaWxsPSIjNDI4NUY0IiB3aWR0aD0iMjEuNyIgaGVpZ2h0PSIyMS41Ii8+PC9nPjxkZWZzPjxwYXRoIGlkPSJpIiBkPSJNNi41IDE0LjZjLS4yLS43LS40LTEuNC0uNC0yLjEgMC0uNy4xLTEuNC4zLTIuMWwtMy4zLTIuNmMtLjcgMS40LTEuMSAzLTEuMSA0LjdzLjQgMy4zIDEuMSA0LjdsMy40LTIuNnoiLz48L2RlZnM+PGNsaXBQYXRoIGlkPSJqIj48dXNlIHhsaW5rOmhyZWY9IiNpIiBvdmVyZmxvdz0idmlzaWJsZSIvPjwvY2xpcFBhdGg+PGcgY2xpcC1wYXRoPSJ1cmwoI2opIj48ZGVmcz48cmVjdCBpZD0iayIgeD0iLTE1LjUiIHk9Ii0xNS41IiB3aWR0aD0iMjI1LjIiIGhlaWdodD0iNTYiLz48L2RlZnM+PGNsaXBQYXRoIGlkPSJsIj48dXNlIHhsaW5rOmhyZWY9IiNrIiBvdmVyZmxvdz0idmlzaWJsZSIvPjwvY2xpcFBhdGg+PHJlY3QgeD0iLTMuOCIgeT0iMiIgY2xpcC1wYXRoPSJ1cmwoI2wpIiBmaWxsPSIjRkJCQzA1IiB3aWR0aD0iMTYuMiIgaGVpZ2h0PSIyMS4xIi8+PC9nPjxkZWZzPjxwYXRoIGlkPSJtIiBkPSJNMTIuNSAyM2MyLjggMCA1LjItLjkgNy0yLjVsLTMuMy0yLjZjLS45LjYtMi4xIDEuMS0zLjYgMS4xLTIuOCAwLTUuMS0xLjgtNi00LjRsLTMuNCAyLjZjMS43IDMuNCA1LjIgNS44IDkuMyA1Ljh6Ii8+PC9kZWZzPjxjbGlwUGF0aCBpZD0ibiI+PHVzZSB4bGluazpocmVmPSIjbSIgb3ZlcmZsb3c9InZpc2libGUiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNuKSI+PGRlZnM+PHJlY3QgaWQ9Im8iIHg9Ii0xNS41IiB5PSItMTUuNSIgd2lkdGg9IjIyNS4yIiBoZWlnaHQ9IjU2Ii8+PC9kZWZzPjxjbGlwUGF0aCBpZD0icCI+PHVzZSB4bGluazpocmVmPSIjbyIgb3ZlcmZsb3c9InZpc2libGUiLz48L2NsaXBQYXRoPjxyZWN0IHg9Ii0yLjciIHk9IjguNyIgY2xpcC1wYXRoPSJ1cmwoI3ApIiBmaWxsPSIjMzRBODUzIiB3aWR0aD0iMjgiIGhlaWdodD0iMjAuMSIvPjwvZz48L3N2Zz4=");
+}
+.googlebox {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 17px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid rgba(29, 30, 28, 0.3);
+  background-clip: padding-box;
+  background-color: #fff;
+
+  border-radius: 8px;
+  color: #1d1e1c;
+  display: inline-flex;
+
+  font-weight: 400;
+  height: 34px;
+  line-height: 34px;
+  padding: 0 16px;
+  position: relative;
+  vertical-align: middle;
+  width: 90%;
+  white-space: nowrap;
+}
+.googlebox a {
+  margin-left: 35%;
+  text-decoration: none;
+  justify-self: center;
+}
+.container {
+  padding: 32px;
+  padding-right: 32;
+  background: #fff8f1;
+  border: 1px solid #ffa26c;
+  border-radius: 0;
+  width: 517px;
+  position: relative;
+  font-family: "Muoto", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  width: 95%;
+  padding: 0 8px;
+
+  margin-bottom: 1rem;
+  font-size: 17px;
+  height: 40px;
+  line-height: 36px;
+  border: 1px solid rgba(29, 30, 28, 0.3);
+  border-radius: 4px;
+  color: #1d1e1c;
+  display: block;
+}
+.container button {
+  width: 100%;
+  background-clip: border-box;
+  background-color: #188433;
+  border-color: transparent !important;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 17px;
+  height: 40px;
+  line-height: 40px;
+}
+.line{
+  border-top: 2px solid #ccc;
+  width: 25%;
+ height: 0;
+
+}
+.linebox{
+justify-content: space-between;  align-items: center;
+  display: flex;
+}
+.bottombox{
+  display: flex;
+  width: 525px;
+  justify-content: space-between;
+}
+.logo {
+transform: scale(1.25);
+margin-bottom: 2rem;
+margin-top: 2rem;
+}
+.box_up svg {
+  color: white;
+  background-color: white;
+  
+}

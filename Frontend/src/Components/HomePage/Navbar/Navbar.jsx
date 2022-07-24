@@ -6,7 +6,7 @@ import style from './navbar.module.css'
   const {pathname}=useLocation()
   const page=pathname.split('/')[1]
   if(page=="Signup")return null
-  if(page=="User"||page=="user")return null
+  if(page=="User"||page=="user"||page=="Signin")return null
   return (
     <div className={style.NavbarWrapper}>
     <div className={style.Navbar}>

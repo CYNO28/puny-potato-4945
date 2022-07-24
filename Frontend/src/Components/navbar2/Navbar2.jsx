@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./Navbar2.module.css"
 
 const Navbar2=({user})=>{
+   let data= JSON.parse(localStorage.getItem("token"))
     return (
 
         <div className={styles.navbar}>
@@ -22,8 +23,8 @@ const Navbar2=({user})=>{
                 <div className={styles.navbar_right}>
                     <button className={styles.right1}><a href="">Settings</a></button>
                     <button className={styles.right2}>
-                        <img className={styles.right_img} src={user?user.picture:' '}></img>
-                        <span className={styles.right_name}>{user?user.given_name:' '}</span>
+                        <img className={styles.right_img} src={user?user.picture:'/avatar.png'}></img>
+                        <span className={styles.right_name}>{user?user.given_name:data.username}</span>
                     </button>
                 </div>
             </div>

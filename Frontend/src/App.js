@@ -11,24 +11,9 @@ import Signin from './Pages/Signin/Signin'
 import Signup from './Pages/SIgnUp/SIgnUp/Signup'
 import User from './Pages/User/User'
 import Why_harvest from './Pages/whyharvest/Why_harvest'
-import axios from 'axios'
 import Navbar2 from './Components/navbar2/Navbar2'
 const App = () => {
-  const [user, setUser] = useState(null);
-
-	const getUser = async () => {
-		try {
-			const url = `http://localhost:8080/auth/login/success`;
-			const { data } = await axios.get(url, { withCredentials: true });
-			setUser(data.user._json);
-		} catch (err) {
-			console.log(err);
-		}
-	};
-
-	useEffect(() => {
-		getUser();
-	}, []);
+  
   
   return (<>
    <Navbar/>
@@ -45,7 +30,7 @@ const App = () => {
 <Route path={'Signin'} element={<Signin/>}/>
 <Route path={'Signup'} element={<Signup/>}/>
 
-<Route path={"User"} element ={<User user={user}></User>}>
+<Route path={"User//*"} element ={<User ></User>}>
 
 </Route>
 

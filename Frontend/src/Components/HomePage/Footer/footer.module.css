@@ -1,0 +1,83 @@
+.wrapper {
+  background-color: rgba(29, 30, 28, 1);
+  color: white;
+  display: flex;
+  padding: 7rem 4rem 4rem 4rem;
+  width: 100vw;
+  flex-direction: column;
+}
+.linkbox {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+}
+.linkbox a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.upperbox {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.upperbox > div {
+  flex: 1;
+  /* max-width: 254px; */
+}
+
+.box_up {
+  width: 300px;
+  padding: 4rem;
+}
+.box_up > svg {
+  color: white;
+
+  transform: scale(1.5);
+}
+.searchbox {
+  max-width: 1200px;
+  height: 44px;
+  margin-top: 4rem;
+
+
+
+  display: block;
+  text-align: center;
+  border: 1px solid rgba(255, 248, 241, 10%);
+  border-radius: 16px;
+  padding: 8px 40px;
+  color: rgba(255, 248, 241, 60%);
+  transition: background 0.2s;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.ending{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-top: 1rem;
+    padding: 0 4rem;
+    margin-bottom   : 3rem;
+    color: rgba(255,248,241,60%);
+
+}
+.iconbox{
+    display: flex;
+    justify-content: space-between;
+}
+.iconbox div{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255,248,241,60%);
+    margin-right: 1rem;
+}
+.iconbox a{
+    margin-left: 1rem;
+    white-space: nowrap;
+    font-size: 18px;
+    color: rgba(255,248,241,60%);
+}

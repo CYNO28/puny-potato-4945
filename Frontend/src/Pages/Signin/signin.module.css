@@ -75,3 +75,23 @@
   height: 40px;
   line-height: 40px;
 }
+.line{
+  border-top: 2px solid #ccc;
+  width: 25%;
+ height: 0;
+
+}
+.linebox{
+justify-content: space-between;  align-items: center;
+  display: flex;
+}
+.bottombox{
+  display: flex;
+  width: 525px;
+  justify-content: space-between;
+}
+.logo {
+transform: scale(1.25);
+margin-bottom: 2rem;
+margin-top: 2rem;
+}

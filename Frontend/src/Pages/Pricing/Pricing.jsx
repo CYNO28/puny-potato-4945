@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Pricing.module.css";
 
+
 function Pricing() {
   const [faq, setFaq] = useState(false);
   const [faq2, setFaq2] = useState(false);
@@ -47,12 +48,13 @@ function Pricing() {
           </div>
         </div>
       </div>
-
-      <button id={styles.btn}>Start Your Free Trial</button>
+<div id={styles.dayContain}>
+<button id={styles.btn}>Start Your Free Trial</button>
       <p id={styles.day}>
         Fully functional 30-day trial. No credit card required.
       </p>
-
+</div>
+    
       <div id= {styles.imgContain}>
          <img src="https://images.squarespace-cdn.com/content/v1/578f1057be6594d57854f841/1586983405162-O5R9715W1AFSG7SJP2LR/Volkswagen_greyscale.png" alt="" />
          <img src="https://brandslogos.com/wp-content/uploads/images/large/aclu-logo-black-and-white.png" alt="" />
@@ -89,9 +91,9 @@ function Pricing() {
 
         <div id={styles.msg}>
           <h3>
-            <span>"</span>We needed something that worked, something super simple, because we
+            <span id= {styles.span}>"</span>We needed something that worked, something super simple, because we
             don’t want to have to teach people how to use it as part of
-            onboarding.<span>"</span>
+            onboarding.<span id= {styles.span}>"</span>
           </h3>
           <h2>Nick Frandsen</h2>
           <p>Co-founder and managing partner, Dovetail</p>

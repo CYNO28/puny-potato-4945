@@ -27,7 +27,6 @@ const App = () => {
 
 
 
-
 <Route path={'Signin'} element={<Signin/>}/>
 <Route path={'Signup'} element={<Signup/>}/>
 
@@ -38,7 +37,7 @@ const App = () => {
 
 
 </Routes>
-
+{/* <Expenses/> */}
 </>
   )
 }

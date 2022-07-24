@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "project": "Project2",
+      "category": "Other",
+      "amount": "100",
+      "id": 5
+    },
+    {
+      "project": "Project3",
+      "category": "Lodging",
+      "amount": "200",
+      "id": 6
+    },
+    {
+      "project": "Project1",
+      "category": "Mileage",
+      "amount": "140",
+      "id": 7
+    },
+    {
+      "project": "Project1",
+      "category": "Meals",
+      "amount": "500",
+      "id": 8
+    }
+  ]
+}

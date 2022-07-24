@@ -47,6 +47,7 @@ function Why_harvest() {
       </div>
 
       <hr style={{ width: "80%" }} />
+      
       {/* third section */}
 
       <div id={styles.feat2}>

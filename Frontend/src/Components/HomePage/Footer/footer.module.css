@@ -1,10 +1,15 @@
 .wrapper {
   background-color: rgba(29, 30, 28, 1);
   color: white;
-  display: flex;
+  display: flex-block;
   padding: 7rem 4rem 4rem 4rem;
   width: 100vw;
   flex-direction: column;
+/* position: absolute; */
+
+z-index: 1;
+bottom: 0;
+
 }
 .linkbox {
   display: flex;

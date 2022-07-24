@@ -16,7 +16,7 @@ const HomePage = () => {
         <Features/>     
         <Integration/>
         <Track/>
-        <Footer/>
+    
     </div>
   )
 }

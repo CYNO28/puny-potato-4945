@@ -1,6 +1,10 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom'
 import style from "./footer.module.css"
 const Footer = () => {
+  const {pathname}=useLocation()
+  const paga=pathname.split('/')[1]
+  if(paga=="Signin"||paga=="Signup"||paga=="User"||paga=="Integrations")return null
   return (
     <div className={style.wrapper}>
         <div className={style.upperbox}>

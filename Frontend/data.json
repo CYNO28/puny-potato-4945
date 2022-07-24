@@ -23,6 +23,18 @@
       "category": "Meals",
       "amount": "500",
       "id": 8
+    },
+    {
+      "project": "Project1",
+      "category": "Entertainment",
+      "amount": "1231",
+      "id": 9
+    },
+    {
+      "project": "Project1",
+      "category": "Entertainment",
+      "amount": "1231",
+      "id": 10
     }
   ]
 }

@@ -1,8 +1,10 @@
 import react from "react";
+import Footer from "../../Components/HomePage/Footer/Footer";
 import styles from "./Integrations.module.css"
 
 const Integrations = () => {
     return (
+        <>
 
         <div className={styles.body_container}>
             <div className={styles.body_container2}>
@@ -278,7 +280,7 @@ const Integrations = () => {
             <br />
             <br />
 
-            {/* <div styles={{marginTop: "400px"}}> */}
+           
             <div className={styles.bottom}>
                 <div className={styles.bottom_content}>
                     <div className={styles.bottom_box}>
@@ -298,9 +300,10 @@ const Integrations = () => {
                     </div>
                 </div>
             </div>
-            {/* </div> */}
+          
         </div>
-
+            <Footer/>
+</>
 
 
     )

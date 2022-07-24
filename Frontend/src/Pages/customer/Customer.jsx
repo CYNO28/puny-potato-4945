@@ -1,4 +1,5 @@
 import react from "react";
+import Footer from "../../Components/HomePage/Footer/Footer";
 import styles from "./Customer.module.css"
 
 const Customer=()=>{
@@ -303,6 +304,7 @@ const Customer=()=>{
                     </div>
                 </div>
             </div>
+      
         </div>
              
 

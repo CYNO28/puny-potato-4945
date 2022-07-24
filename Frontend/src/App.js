@@ -12,6 +12,7 @@ import Signup from './Pages/SIgnUp/SIgnUp/Signup'
 import User from './Pages/User/User'
 import Why_harvest from './Pages/whyharvest/Why_harvest'
 import Navbar2 from './Components/navbar2/Navbar2'
+import Footer from './Components/HomePage/Footer/Footer'
 const App = () => {
   
   
@@ -38,6 +39,7 @@ const App = () => {
 
 </Routes>
 {/* <Expenses/> */}
+<Footer/>
 </>
   )
 }

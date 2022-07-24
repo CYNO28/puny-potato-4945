@@ -351,7 +351,7 @@ export const Features = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+
 
     </div>
   );

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { addExpense, getExpense } from "../redux/actions";
 import {useDispatch, useSelector} from "react-redux"
 import styles from "./Expenses.module.css";
+import { Link } from "react-router-dom";
 
 function Expenses() {
   const [value, setValue] = useState(false);
@@ -108,7 +109,7 @@ function Expenses() {
 
 {value?<div id={styles.entry}>
      <div id= {styles.upperPart}>
-         <a id= {styles.a} href="">Submit for approval</a>
+         <Link   id= {styles.a} to={'/'}>Submit for approval</Link>
       </div>  
       {info.map((ele)=>(
            <div id= {styles.division} key= {ele.id}>

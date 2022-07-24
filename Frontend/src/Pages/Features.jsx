@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Components/HomePage/Footer/Footer";
 // import styles from "../Styles/Refund.css";
 import styles from "../styles/Features.css";
 
@@ -350,6 +351,8 @@ export const Features = () => {
           </div>
         </div>
       </div>
+      <Footer/>
+
     </div>
   );
 };

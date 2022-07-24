@@ -95,3 +95,8 @@ transform: scale(1.25);
 margin-bottom: 2rem;
 margin-top: 2rem;
 }
+.box_up svg {
+  color: white;
+  background-color: white;
+  
+}

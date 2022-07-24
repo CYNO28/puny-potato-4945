@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import style from "./signin.module.css";
 const Signin = () => {
+  const [name,setname]=useState("");
 const [state ,setState]=useState({
   username:'',
   password:''
@@ -29,8 +30,9 @@ const sendData=async()=>{
   }).then(res=>res.json())
   .then(data=>{
     console.log(data)
-    localStorage.setItem('token',data.userid)
+    localStorage.setItem('token',JSON.stringify(data))
     navigate('/user')
+
   }).catch(err=>{
     console.log(err)
   }

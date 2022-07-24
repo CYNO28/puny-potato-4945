@@ -38,7 +38,7 @@ function Expenses() {
               <p>This expense is billable</p>
             </div>
             <div>
-              <button id={styles.btn2}>Save expense</button>
+              <button id={styles.btn2} >Save expense</button>
               <button id={styles.btn3}>Cancel</button>
             </div>
           </div>

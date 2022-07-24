@@ -16,10 +16,7 @@ const User = () => {
 			const { data } = await axios.get(url, { withCredentials: true });
 			setUser(data.user._json);
       console.log(data.user._json)
-      fetch(url)
-      .then(res => res.json())
-      .then(data => console.log(data)).catch(err => console.log(err))
-	
+     
 		} catch (err) {
 			console.log(err);
 		}
@@ -31,8 +28,9 @@ const User = () => {
   return (
 <>
 <Navbar2 user={user}></Navbar2>
+<Expenses />
 <Routes>
-<Route path={'/user/Expen'} element={<Expenses></Expenses>}></Route>
+
 <Route path={'/user/Time'} element={<></>}></Route>
   <Route path={'/user/projects'} element={<></>}></Route>
   </Routes>

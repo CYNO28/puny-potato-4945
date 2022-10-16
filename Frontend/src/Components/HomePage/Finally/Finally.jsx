@@ -13,13 +13,13 @@ const Finally = () => {
                 <h1>
                 Finally, time tracking that your team actually wants to use.
                 </h1>
-                <p>
+                <p style={{textAlign:'center'}}>
                 Intuitive time tracking. Instant report generation. Automatic invoice creation.
                 </p>
             </div>
             <div className={style.button}>
                 <button>Try Harvest free</button>
-                <p> free 30-day trial. NO credit card required.</p>
+                <p style={{textAlign:'center',marginLeft:"-40px"}}> free 30-day trial. NO credit card required.</p>
             </div>
             <div className={style.imagebox}>
                     <img src="/images/imgbox1.webp" alt="" />

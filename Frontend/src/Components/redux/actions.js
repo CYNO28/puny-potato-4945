@@ -58,7 +58,7 @@ export const addExpense = (value)=> async(dispatch)=>{
             })
         })
         let data= await res.json();
-        // console.log(data);
+  
         dispatch(add_success())
     } catch (error) {
         dispatch(add_error());

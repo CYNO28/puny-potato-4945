@@ -237,6 +237,7 @@ hr {
 #queContain > div > h3 {
   font-size: 22px;
   font-weight: 400;
+  cursor: pointer;
 }
 #queContain > div > p {
   width: 500px;

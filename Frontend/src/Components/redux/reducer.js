@@ -47,7 +47,6 @@ export const expenseReducer = (state = initState,action)=>{
                 ...state,
                 loading : false,
                 error : false,
-                // expense: action.payload
             }
         }
         case ADD_ERROR : {
